@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/rootLayout"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="#FFFFFF"
+  android:gravity="center_horizontal"
+  android:orientation="vertical"
+  android:padding="20dp">
+
+  <TextView
+    android:id="@+id/tvInstruksi"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="180dp"
+    android:layout_marginBottom="40dp"
+    android:text="Tekan Tombol untuk Mengubah Warna"
+    android:textColor="#0f0f0f"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    android:gravity="center"/>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <Button
+      android:id="@+id/btnMerah"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#D32F2F"
+      android:text="Merah"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnHijau"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#388E3C"
+      android:text="Hijau"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <Button
+      android:id="@+id/btnBiru"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#1976D2"
+      android:text="Biru"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnKuning"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#FBC02D"
+      android:text="Kuning"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <Button
+      android:id="@+id/btnHitam"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#212121"
+      android:text="Hitam"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+
+    <Button
+      android:id="@+id/btnOranye"
+      android:layout_width="0dp"
+      android:layout_height="55dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#FF9800"
+      android:text="Orange"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold" />
+  </LinearLayout>
+
+</LinearLayout>
