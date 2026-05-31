@@ -11,11 +11,16 @@ class WelcomeActivity : AppCompatActivity() {
     setContentView(R.layout.activity_welcome)
 
     val btnMasuk = findViewById<Button>(R.id.btnMasuk)
+    val btnPialaDunia = findViewById<Button>(R.id.btnPialaDunia)
 
     btnMasuk.setOnClickListener {
       val intent = Intent(this, MainActivity::class.java)
       startActivity(intent)
-      finish()
+    }
+
+    btnPialaDunia.setOnClickListener {
+      val intent = Intent(this, BenderaActivity::class.java)
+      startActivity(intent)
     }
   }
 }

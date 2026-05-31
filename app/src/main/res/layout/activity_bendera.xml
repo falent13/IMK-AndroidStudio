@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
-  android:id="@+id/rootLayout"
+  android:id="@+id/rootLayoutBendera"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="#FFFFFF"
@@ -10,12 +10,12 @@
   android:padding="20dp">
 
   <TextView
-    android:id="@+id/tvInstruksi"
+    android:id="@+id/tvInstruksiBendera"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_marginTop="100dp"
     android:layout_marginBottom="40dp"
-    android:text="Tekan Tombol untuk Mengubah Warna"
+    android:text="Tekan Tombol untuk Mengubah Bendera"
     android:textColor="#0f0f0f"
     android:textSize="18sp"
     android:textStyle="bold"
@@ -28,56 +28,26 @@
     android:weightSum="2">
 
     <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnMerah"
+      android:id="@+id/btnItaly"
       android:layout_width="0dp"
       android:layout_height="60dp"
       android:layout_weight="1"
       android:layout_margin="6dp"
-      android:backgroundTint="#D32F2F"
-      android:text="Merah"
+      android:backgroundTint="#0D47A1"
+      android:text="ITA"
       android:textColor="#FFFFFF"
       android:textStyle="bold"
       app:cornerRadius="12dp" />
 
+
     <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnHijau"
+      android:id="@+id/btnArgentina"
       android:layout_width="0dp"
       android:layout_height="60dp"
       android:layout_weight="1"
       android:layout_margin="6dp"
-      android:backgroundTint="#388E3C"
-      android:text="Hijau"
-      android:textColor="#FFFFFF"
-      android:textStyle="bold"
-      app:cornerRadius="12dp" />
-  </LinearLayout>
-
-  <LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:weightSum="2">
-
-    <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnBiru"
-      android:layout_width="0dp"
-      android:layout_height="60dp"
-      android:layout_weight="1"
-      android:layout_margin="6dp"
-      android:backgroundTint="#1976D2"
-      android:text="Biru"
-      android:textColor="#FFFFFF"
-      android:textStyle="bold"
-      app:cornerRadius="12dp" />
-
-    <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnKuning"
-      android:layout_width="0dp"
-      android:layout_height="60dp"
-      android:layout_weight="1"
-      android:layout_margin="6dp"
-      android:backgroundTint="#FBC02D"
-      android:text="Kuning"
+      android:backgroundTint="#29B6F6"
+      android:text="ARG"
       android:textColor="#FFFFFF"
       android:textStyle="bold"
       app:cornerRadius="12dp" />
@@ -90,25 +60,56 @@
     android:weightSum="2">
 
     <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnHitam"
+      android:id="@+id/btnBrasil"
       android:layout_width="0dp"
       android:layout_height="60dp"
       android:layout_weight="1"
       android:layout_margin="6dp"
-      android:backgroundTint="#212121"
-      android:text="Hitam"
+      android:backgroundTint="#4CAF50"
+      android:text="BRA"
       android:textColor="#FFFFFF"
       android:textStyle="bold"
       app:cornerRadius="12dp" />
 
     <com.google.android.material.button.MaterialButton
-      android:id="@+id/btnOranye"
+      android:id="@+id/btnJerman"
       android:layout_width="0dp"
       android:layout_height="60dp"
       android:layout_weight="1"
       android:layout_margin="6dp"
-      android:backgroundTint="#FF9800"
-      android:text="Orange"
+      android:backgroundTint="#000000"
+      android:text="GER"
+      android:textColor="#FFFFFF"
+      android:textStyle="bold"
+      app:cornerRadius="12dp" />
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <com.google.android.material.button.MaterialButton
+      android:id="@+id/btnJepang"
+      android:layout_width="0dp"
+      android:layout_height="60dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#E0E0E0"
+      android:text="JPN"
+      android:textColor="#B71C1C"
+      android:textStyle="bold"
+      app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+      android:id="@+id/btnBelanda"
+      android:layout_width="0dp"
+      android:layout_height="60dp"
+      android:layout_weight="1"
+      android:layout_margin="6dp"
+      android:backgroundTint="#FF5722"
+      android:text="NED"
       android:textColor="#FFFFFF"
       android:textStyle="bold"
       app:cornerRadius="12dp" />

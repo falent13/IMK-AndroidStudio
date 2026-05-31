@@ -1,11 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-  <!-- Base application theme. -->
   <style name="Base.Theme.Warnawarni" parent="Theme.Material3.DayNight.NoActionBar">
-    <!-- Customize your light theme here. -->
-    <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-  </style>
+    <item name="colorPrimary">#212121</item> <item name="android:statusBarColor">@android:color/transparent</item> <item name="android:windowLightStatusBar" tools:targetApi="m">true</item> </style>
 
   <style name="Theme.Warnawarni" parent="Base.Theme.Warnawarni" />
+
   <style name="ShapeAppearance.Button.Circle" parent="">
     <item name="cornerSize">50%</item>
   </style>
